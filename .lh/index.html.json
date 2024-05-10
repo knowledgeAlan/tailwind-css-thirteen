@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1715251782192,
@@ -44,6 +44,18 @@
                 {
                     "date": 1715251970170,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,10 +46,10 @@\n     \n     \n         <main class=\"px-16 py-6  md:col-span-2 bg-gray-100\">\n             <div class=\"flex justify-center md:justify-end\">\n-                <a class=\"text-primary border-primary md:border-2\"  href=\"#\">Log in</a>\n-                <a class=\"text-primary ml-2 border-primary md:border-2\" href=\"#\">Sign up</a>\n+                <a class=\"btn text-primary border-primary md:border-2\"  href=\"#\">Log in</a>\n+                <a class=\"btn text-primary ml-2 border-primary md:border-2\" href=\"#\">Sign up</a>\n             </div>\n     \n          \n     \n"
+                },
+                {
+                    "date": 1715338166603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n             </header>\n     \n             <div>\n                 <h4 class=\"font-bold pb-2 mt-12 border-b border-gray-200\">Latest Recipes</h4>\n-                <div class=\"mt-8\">\n+                <div class=\"mt-8 grid lg:grid-cols-3\">\n                     <div class=\"card\">\n                         <img src=\"img/stew.jpg\" alt=\"stew\" class=\"h-32 sm:h-48 w-full object-cover\">\n                         <div class=\"m-4\">\n                             <span class=\"font-bold\">5 bean Chili Stew</span>\n"
+                },
+                {
+                    "date": 1715338185679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n             </header>\n     \n             <div>\n                 <h4 class=\"font-bold pb-2 mt-12 border-b border-gray-200\">Latest Recipes</h4>\n-                <div class=\"mt-8 grid lg:grid-cols-3\">\n+                <div class=\"mt-8 grid lg:grid-cols-3 gap-10\">\n                     <div class=\"card\">\n                         <img src=\"img/stew.jpg\" alt=\"stew\" class=\"h-32 sm:h-48 w-full object-cover\">\n                         <div class=\"m-4\">\n                             <span class=\"font-bold\">5 bean Chili Stew</span>\n"
+                },
+                {
+                    "date": 1715338262421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -101,16 +101,16 @@\n \n \n                 </div>\n     \n-             <h4 class=\"font-bold pb-2 mt-12 border-b border-gray-200\">Most popular</h4>\n+             <h4 class=\"font-bold pb-2 mt-12 border-b border-gray-200\">Most Popular</h4>\n     \n                 <div class=\"mt-8\">\n         \n                 </div>\n              </div>\n             <div class=\"mt-12 flex justify-center\">\n-                <div class=\"bg-secondary-100 text-secondary-200\">Load more</div>\n+                <div class=\"btn bg-secondary-100 text-secondary-200\">Load more</div>\n             </div>\n         </main>\n         \n     </div>\n"
                 }
             ],
             "date": 1715251782192,
